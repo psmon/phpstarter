@@ -57,9 +57,6 @@ Composer는 모듈의 의존성을 관리해주는 툴로서 , 닷넷에서는 �
 자바에서는 메이븐 정도로 생각하면되겠습니다.
 
 
-composer require league/flysystem
-
-
 ## 라라벨 설치
 - https://laravel.kr/docs/5.6/installation
 
@@ -68,6 +65,15 @@ composer require league/flysystem
 
     프로젝트 템플릿 생성
     laravel new mySite
+
+    프로젝트를 생성하면 league/flysystem을 설치하라는 경고문이 나오게됩니다.
+    프로젝트 경로에서 다음을 실행하여 라라벨의 의존 구성패키지를 설치합니다.
+    
+
+    mySite>composer require league/flysystem
+
+    php 서버실행
+    mySite>php artisan serve
 
 
 ## IDE (VisualStudio Code)
