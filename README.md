@@ -68,12 +68,16 @@ Composer는 모듈의 의존성을 관리해주는 툴로서 , 닷넷에서는 �
 
     프로젝트를 생성하면 league/flysystem을 설치하라는 경고문이 나오게됩니다.
     프로젝트 경로에서 다음을 실행하여 라라벨의 의존 구성패키지를 설치합니다.
-    
 
     mySite>composer require league/flysystem
 
+    mySite/.env.sample -> .env 로 변경후 라라벨용 환경변수 셋팅
+    mySite>php artisan key:generate
+
     php 서버실행
     mySite>php artisan serve
+
+    localhost:8000 접속하여 Laravel 문구가 뜨면 성공
 
 
 ## IDE (VisualStudio Code)
@@ -85,3 +89,6 @@ Composer는 모듈의 의존성을 관리해주는 툴로서 , 닷넷에서는 �
 - PHP Debug
 - HTML CSS Suport
 
+
+# 도커환경
+도커환경의 개발 통합으로도 시도해보겠습니다. 
