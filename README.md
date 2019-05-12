@@ -39,9 +39,9 @@ Non Thread Safe Zip 버젼을 받아서 아래와 같이 버젼이 구분될수 
     extension=php_pdo_sqlite.dll
     extension=php_sockets.dll
 
-    윈도우 환경변수 path를 php.exe가 존재하는 C:/PHP/7.3.5> 경로 추가합니다.
-
+    윈도우 환경변수 path를 php.exe가 존재하는 C:/PHP/7.3.5> 경로 추가합니다. (내PC->속성->고급->환경변수)
     아무 콘솔 경로에서 php -v 를 하여 원하는 버젼이 표시가 되면 성공
+
     PS C:\Users\아무개> php -v
     PHP 7.3.5 (cli) (built: Mar 27 2018 15:23:04) ( NTS )
     Copyright (c) 1997-2017 The PHP Group
@@ -89,6 +89,9 @@ Composer는 모듈의 의존성을 관리해주는 툴로서 , 닷넷에서는 �
 - PHP Debug
 - HTML CSS Suport
 
+실행후 폴더열기-> mySite
+
 
 # 도커환경
-도커환경의 개발 통합으로도 시도해보겠습니다. 
+도커환경의 개발 통합으로도 시도해보겠습니다.
+
